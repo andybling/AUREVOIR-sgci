@@ -1,0 +1,9 @@
+[build]
+  command = "bundle install && bundle exec jekyll build"
+  publish = "_site"
+
+# The site has no index page; serve the farewell page at the root URL.
+[[redirects]]
+  from = "/"
+  to = "/au_revoir_sgci_yves_mouaha_handy.html"
+  status = 200
